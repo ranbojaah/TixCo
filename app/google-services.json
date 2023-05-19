@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "823187434324",
+    "project_id": "tixco-9dbba",
+    "storage_bucket": "tixco-9dbba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823187434324:android:63273220020300efcb76c1",
+        "android_client_info": {
+          "package_name": "com.example.tixco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823187434324-ptraolti6chpjfmkb1ch5cl183at17oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tixco",
+            "certificate_hash": "8a90ceaba760a09105f40783c241b6cd5c3dc065"
+          }
+        },
+        {
+          "client_id": "823187434324-jhmgd0beqarcso3sngadvvid4a31ltk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeb3A-PzzNKmGbkVX6prgsIY5JHMlw7fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823187434324-jhmgd0beqarcso3sngadvvid4a31ltk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

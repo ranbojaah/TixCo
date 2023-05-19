@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Rincian Pembayaran"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/open_sans"
+                    android:text="VVIP"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/totalvvip"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="0"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_harga_vvip"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Rp0"
+                    android:textColor="@color/white" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/open_sans"
+                    android:text="VIP"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_vip"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="0"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_harga_vip"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Rp0"
+                    android:textColor="@color/white" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/open_sans"
+                    android:text="REGULAR"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_reg"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="0"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_harga_reg"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Rp0"
+                    android:textColor="@color/white" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/open_sans"
+                    android:text="TOTAL"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_item_frg"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="0"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/total_harga_frg"
+                    android:layout_marginLeft="80dp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Rp0"
+                    android:textColor="@color/white" />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

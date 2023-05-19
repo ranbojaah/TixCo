@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tix.Co</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_westlife">Westlife akan menyapa penggemarnya di Indonesia Convention Exhibition (ICE BSD). Hadiri konser grup vokal asal Irlandia ini yang akan berkonsep lebih intim, elegan, dan eksklusif. Jadikan harimu kian spesial dengan beli tiket konser Westlife di tiket.com sekarang!</string>
+    <string name="desc_asiansound">Asian Sound Syndicate Vol.2 (#Asiansoundsyndicate #ASSVol. 2 #ASS2023 #AsianPride #AsianMusicFestival) memadukan music, art, food and fashion. A platform for people to enjoy, create and inspire. Asian Sound Syndicate Vol. 2 menampilkan berbagai musisi dari Asia yang kami menyebutnya dengan sebutan ‘International Syndicate’ dan ‘Local Syndicate’. Untuk edisi kedua (vol.2) tahun 2023 ini akan menggabungkan aksi panggung dari musisi tanah air dan juga penampilan dari musisi internasional asal Korea, Jepang, Malaysia dst-nya. Tema tahun ini mengusungkan “Tropical ambience” digabungkan dengan pop art colors dan minimalist illustration sebagai konsep acara.</string>
+    <string name="desc_synchronize">Synchronize Fest merupakan festival musik multi-genre tahunan berskala nasional yang mengundang puluhan ribu penonton untuk merayakan keberagaman jenis musik hidup di enam panggung selama tiga hari dan tiga malam. Festival ini menampilkan lebih dari 100 pertunjukan terkurasi dari artis-artis terfavorit dan terbaik Indonesia yang berasal dari dekade 60-an, 70-an, 80-an, 90-an, hingga 2000-an. Seluruh genre musik populer akan ditampilkan di Synchronize Fest.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
